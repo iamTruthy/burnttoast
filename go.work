@@ -1,4 +1,7 @@
-go 1.18
+go 1.21.1
 
-use ./Exercise1
-use ./Exercise2
+use ./AllPractice
+use ./BitShifting
+use ./PrintVerbs
+use ./BiDeciHex
+use ./Int-Uint

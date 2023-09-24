@@ -12,9 +12,8 @@ func main() {
 
 	man, number, NFT, _ := "Kevindegods", 33.3, "Degods", "y00ts"
 	fmt.Println(man, number, NFT)
-    
+
 	fmt.Println(w)
 	fmt.Println(g)
 
-	sayHello("Jerry")
 }
