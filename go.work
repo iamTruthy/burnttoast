@@ -5,3 +5,4 @@ use ./BitShifting
 use ./PrintVerbs
 use ./BiDeciHex
 use ./Int-Uint
+use ./CodeMgmt
