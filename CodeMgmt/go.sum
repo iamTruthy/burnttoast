@@ -1,2 +1,4 @@
-github.com/iamTruthy/Waffle v0.0.0-20230925032306-2ef6eb426aa2 h1:8emGq+XEk3KTgwYWwW18YFJpzPQozVOHgykpeZiSm3A=
-github.com/iamTruthy/Waffle v0.0.0-20230925032306-2ef6eb426aa2/go.mod h1:rVggFPD5hqXh+9AcYn1E5c6Nuycdxss1bXfMAyOGt9g=
+github.com/iamTruthy/Coffee v0.0.0-20230926230700-4057b193412e h1:zkKzGpGRGbLoBzv6oRTqRdIoizFWwCs+gueszvQCSfo=
+github.com/iamTruthy/Coffee v0.0.0-20230926230700-4057b193412e/go.mod h1:RIu/0Iyc/QLV6DqlaSw9F95ERcCf/7RWwzy1dM2dhr0=
+github.com/iamTruthy/Waffle v0.0.0-20230927000151-c6289873dbbe h1:hzTWg/vWBus+o1uHIxlYLiraSpGYRZE4PmjqSfLjk7I=
+github.com/iamTruthy/Waffle v0.0.0-20230927000151-c6289873dbbe/go.mod h1:SM9kwp+drGbKUnTuo2YKDngVs9UIPz9f2hEDDoJ4B6g=

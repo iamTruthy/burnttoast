@@ -6,12 +6,14 @@ import (
 )
 
 func main() {
-	a := waffle.Bill()
-	b := waffle.Order()
-	c := waffle.Ready()
 
+	a := waffle.Order()
 	fmt.Println(a)
+
+	b := waffle.Meal()
 	fmt.Println(b)
+
+	c := waffle.Bill()
 	fmt.Println(c)
 
 }
