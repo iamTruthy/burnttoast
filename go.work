@@ -6,5 +6,6 @@ use ./PrintVerbs
 use ./BiDeciHex
 use ./Int-Uint
 use ./CodeMgmt
-use ./NewExe1
+use ./Exercise1
 use ./Statement
+use ./Exercise2
