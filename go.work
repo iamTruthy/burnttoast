@@ -8,4 +8,3 @@ use ./Int-Uint
 use ./CodeMgmt
 use ./Exercise1
 use ./Statement
-use ./Exercise2

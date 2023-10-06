@@ -26,6 +26,11 @@ func main() {
 		}
 	}
 
+	/*
+		range is a keyword use to iterate over every single
+		 elements inside a slice as seen in the code below
+	*/
+
 	s := []string{"Pugdy Penduins", "MadLads", "Degods", "Azuki", "y00ts"}
 
 	for r, v := range s {
@@ -38,23 +43,21 @@ func main() {
 		"Moneypenny": 32,
 	}
 
-	for v,k := range m {
-	fmt.Printf("\nvalue is %v and key is %v\n",k,v)
+	for v, k := range m {
+		fmt.Printf("\nvalue is %v and key is %v\n", k, v)
 	}
 
-	rizz := m["James"] 
+	rizz := m["James"]
 	fmt.Println(rizz)
 	if v, ok := m["James"]; ok {
-		fmt.Printf("James found in map with value of %v\n",v)
+		fmt.Printf("James found in map with value of %v\n", v)
 
 	}
 
-
-	yolo :=m["W"]
+	yolo := m["W"]
 	fmt.Println(yolo)
 	if v, ok := m["yolo"]; !ok {
 		fmt.Println("yolo not found in map with value of an int", v)
 	}
-
 
 }
