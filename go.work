@@ -6,4 +6,7 @@ use ./PrintVerbs
 use ./BiDeciHex
 use ./Int-Uint
 use ./CodeMgmt
-use ./Statement
+use ./IfStatement
+use ./Loops
+use ./Slices
+use ./Switch
