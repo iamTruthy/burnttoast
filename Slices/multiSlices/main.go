@@ -8,11 +8,16 @@ func main() {
 
 	pp := []string{"Luca", "Igloo", "Penguins", "Ice"}
 	ss := []string{"Wabdoteth", "budzyxbt", "Camol", "Seals"}
-	fmt.Println(pp)
-	fmt.Println(ss)
-
-	fmt.Println("----------------------------------")
 
 	cute := [][]string{pp, ss}
-	fmt.Println(cute)
+
+	for i, v := range cute {
+		fmt.Println(i, v)
+
+		for x, y := range v {
+			fmt.Println(x, y)
+		}
+
+	}
+
 }
