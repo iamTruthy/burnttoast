@@ -10,3 +10,4 @@ use ./IfStatement
 use ./Loops
 use ./Slices
 use ./Switch
+use ./Maps
