@@ -11,3 +11,4 @@ use ./Loops
 use ./Slices
 use ./Switch
 use ./Maps
+use ./Struct
