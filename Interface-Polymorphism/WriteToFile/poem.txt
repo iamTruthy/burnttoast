@@ -1,0 +1,1 @@
+The writer interface is a fundamental concept used for writing data to various output destinations, including files.

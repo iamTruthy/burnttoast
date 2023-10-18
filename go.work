@@ -12,3 +12,4 @@ use ./Slices
 use ./Switch
 use ./Maps
 use ./Struct
+use ./Interface-Polymorphism

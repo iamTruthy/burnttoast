@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"strconv"
 )
 
@@ -19,16 +20,22 @@ func (r rating) String() string {
 	return fmt.Sprint("The rating is ", strconv.Itoa(int(r)))
 }
 
+// This is a Wrapper function. 
+
+func logInfo(s fmt.Stringer) {
+	log.Println("Log from today: ", s.String())
+}
+
 func main() {
 
 	m := movie{
 		title: "Blade of The Immortal",
 	}
 
-	fmt.Println(m)
+	logInfo(m)
 
 	var r rating = 10
 
-	fmt.Println(r)
+	logInfo(r)
 
 }
