@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(x)
 
 	y := []int{56, 57, 58, 59, 60}
-	x = append(x, y...)
+	x = append(x, y...) // Thsi is unfurling a slice
 	fmt.Println(x)
 
 }

@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	i := foo(1, 2, 3)
 	fmt.Println(i)
+
+
 }
 
 func foo(n ...int) int {
