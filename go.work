@@ -12,6 +12,6 @@ use ./Switch
 use ./Maps
 use ./Struct
 use ./Interface-Polymorphism
-use ./11-Hands-on-testing
+use ./11-Hands-on-testing-db
 use ./12-Hands-on-unit-testing
 use ./13-Hands-on-unit-test2

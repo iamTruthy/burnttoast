@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	x := increase(3)
+	x := doubler(3)
 	fmt.Println(x())
 	fmt.Println(x())
 	fmt.Println(x())
@@ -17,10 +17,10 @@ func main() {
 
 }
 
-func increase(a float64) func() float64 {
+func doubler(a float64) func() float64 {
 	var c float64
 	return func() float64 {
 		c++
-		return math.Pow(a,c)
+		return math.Pow(a, c)
 	}
 }
