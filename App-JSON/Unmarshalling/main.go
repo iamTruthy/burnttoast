@@ -26,10 +26,10 @@ func main() {
 	}
 	fmt.Println(pet)
 
-	for i, v := range pet {
-		fmt.Println("\nFavorite Animal", i)
-		fmt.Println(v.Name, v.Fur)
+	// for i, v := range pet {
+		// fmt.Println("\nFavorite Animal", i)
+		// fmt.Println(v.Name, v.Fur)
 
-	}
+	// }
 
 }

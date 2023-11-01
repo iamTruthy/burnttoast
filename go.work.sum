@@ -1,4 +1,4 @@
 github.com/iamTruthy/Coffee v0.0.0-20230926232612-fd1b59451c84 h1:7Bhwn2FucJT5zAgeNGU5yVxczkIhWoGuHoaObYDLQe8=
 github.com/iamTruthy/Coffee v0.0.0-20230926232612-fd1b59451c84/go.mod h1:RIu/0Iyc/QLV6DqlaSw9F95ERcCf/7RWwzy1dM2dhr0=
-github.com/iamTruthy/Waffle v0.0.0-20230927220412-6b2d8425cd9a h1:eleVI3pZBjujW8JdOb8IUaYinXLsMRRt7bBOl8jDoAg=
-github.com/iamTruthy/Waffle v0.0.0-20230927220412-6b2d8425cd9a/go.mod h1:RoDMVRj2pbWjlxDNKvdh4SBb+q+Oq+xeqgEC1+zWAKE=
+golang.org/x/sys v0.13.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/text v0.13.0/go.mod h1:TvPlkZtksWOMsz7fbANvkp4WM8x/WCo/om8BMLbz+aE=
