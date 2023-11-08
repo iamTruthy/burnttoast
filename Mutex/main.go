@@ -37,4 +37,4 @@ func main() {
 	fmt.Println("Count:", counter)
 }
 
-// i do not understand this code totally.
+// i kinda understand this code...
