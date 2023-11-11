@@ -32,7 +32,7 @@ func main() {
 	`continue` statement.
 	*/
 
-	for b := 0; b < 100; b++ {
+	for b := 0; b < 50; b++ {
 		if b%2 != 1 {
 			continue
 		}
@@ -44,7 +44,7 @@ func main() {
 	another way to print out ODD NUMBERS 
 	but without the `continue` statement (used by the instructor)
 	*/ 
-	for n := 0; n < 100; n++ {
+	for n := 0; n < 50; n++ {
 		if n%2 != 0 {
 			fmt.Println(n)
 		}
