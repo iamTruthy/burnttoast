@@ -14,24 +14,23 @@ func main() {
 func receive(c, q <-chan int) {
 	for {
 		select {
-		case v := <-q:
-			fmt.Println("From channel q: ", v)
 		case v := <-c:
 			fmt.Println("From channel c:", v)
+		case <-q:
 			return
 		}
 	}
 }
 
-func gen(q <-chan int) <-chan int {
+func gen(q chan<- int) <-chan int {
 	c := make(chan int)
 
 	go func() {
 		for i := 0; i < 100; i++ {
 			c <- i
 		}
+		q <- 1
 		close(c)
-
 	}()
 
 	return c
