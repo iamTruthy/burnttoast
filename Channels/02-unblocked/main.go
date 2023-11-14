@@ -9,6 +9,7 @@ func main() {
 
 	fmt.Println("Goroutines", runtime.NumGoroutine())
 
+	// Using a func literal to unblock a channel
 	ch := make(chan int)
 
 	go func() {
