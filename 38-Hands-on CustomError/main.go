@@ -14,12 +14,12 @@ type customError struct {
 	info string
 }
 
-func foo(e error) {
-	fmt.Println(e)
+func (ce customError) Error() string {
+	return fmt.Sprintf("Error: %v", ce.info)
 }
 
-func (ce customError) Error() string {
-	return fmt.Sprintln("Error:", ce.info)
+func foo(e error) {
+	fmt.Println(e)
 }
 
 func main() {
