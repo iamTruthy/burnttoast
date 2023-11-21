@@ -8,7 +8,15 @@ import (
 
 func main() {
 // Package dog is called in func main and assigned to a variable human. 
-// it takes in a value of type int which is 
+// dog.Years takes in a value of type int which is multiplied by whatever value is sent into the function call 
+
+/*
+example:
+
+dog.Years(a) =  a * bingo
+
+*/
+
 /*
 
 func Years(a int) int {
