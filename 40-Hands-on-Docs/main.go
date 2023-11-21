@@ -18,6 +18,6 @@ func Years(a int) int {
 
 */
 	human := dog.Years(2)
-	fmt.Println(human)
+	fmt.Printf("human years to dog years is: %v",human)
 
 }
