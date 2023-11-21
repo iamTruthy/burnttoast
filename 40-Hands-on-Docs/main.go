@@ -17,7 +17,7 @@ func Years(a int) int {
 }
 
 */
-	human := dog.Years(2)
-	fmt.Printf("human years to dog years is: %v",human)
+	human := dog.Years(6)
+	fmt.Printf("human years to dog years is: %v\n",human)
 
 }
